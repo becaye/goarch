@@ -258,3 +258,126 @@ img , select {
 .tp-splitted {
    text-align: right !important;
 }
+
+
+
+/*******RESPONSVIVE CSS STARTS 8-6-2018*****************/
+
+
+.navbar-desctop.affix .brand {
+    display: inline-block;
+    float: left;
+}
+.brand-panel img.img-responsive.center-block {
+    width: 266px;
+    height: 129px;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .brand-panel img.img-responsive.center-block {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+@media(max-width: 1200px) {
+    .slideInDown .navbar-desctop-menu > li {
+        margin-left: 55px !important;
+    }
+    .navbar-desctop-menu > li {
+        margin-left: 40px !important;
+    }
+}
+@media(max-width: 1140px) {
+    .icon_blocks_resp.wpb_text_column h4 a {
+        display: block;
+        margin: 0 auto;
+        text-align: left;
+        /* text-align: center; */
+    }
+    .icon_blocks_resp.wpb_text_column h4 {
+        max-width: 440px;
+        margin: 0 auto;
+    }
+    .navbar-desctop-menu > li a {
+        font-size: 15px;
+    }
+    .navbar-desctop-menu > li {
+        margin-left: 20px !important;
+    }
+     .col-address img {
+        width: 50px;
+        height: auto;
+    }
+    .col-address {
+        font-size: 15px;
+    }
+     .vertical-panel-content {
+        display: none !important;
+    }
+    .vc_separator.vc_separator_align_center h4 {
+    max-width: 261px;
+}
+}
+
+@media(max-width: 1023px) {
+
+    .brand-panel img.img-responsive.center-block {
+        width: auto;
+        height: auto;
+    }
+    .brand-panel {
+        width: 42vmin !important;
+    }
+}
+@media(max-width: 991px) {
+   
+    .section {
+        position: relative;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important; 
+    }
+    .section-content {
+        margin-top: 30px !important;
+    }
+    .contacts .section-content {
+        margin-top: 7.1em;
+        text-align: center;
+    }
+    #footer.footer .col-base {
+        margin-top: 25px;
+    }
+    .services .col-service {
+        width: 33.33%;
+    }
+    section.project-details {
+        margin-bottom: 0px !important;
+    }
+    #footer.footer, 
+    .footer .row-base {
+        margin-top: 0 !important;
+    }
+
+}
+
+@media(max-width: 767px) {
+    .services .col-service {
+        width: 100%;
+    }
+}
+@media(max-width: 600px) {
+    .brand-panel {
+        width: 52vmin !important;
+    }
+}
+
+@media(max-width: 459px) {
+    .icon_blocks_resp.wpb_text_column h4 a {
+        display: block;
+        text-align: left;
+        font-size: 11px;
+    }
+    .icon_blocks_resp.wpb_text_column h4 a img {
+        width: 50px;
+        height: auto;
+        margin: 0 10px 0 10px;
+    }
+}

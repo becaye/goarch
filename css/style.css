@@ -3302,6 +3302,13 @@ img.mfp-img{
 }
 
 
+@media (max-width: 800px){
+
+.vertical-panel{
+  display:none
+}
+
+}
 
 /* 11.4 Max height 480px  */
 
